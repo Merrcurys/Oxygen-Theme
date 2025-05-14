@@ -1,0 +1,34 @@
+{
+  "name": "oxygen-theme",
+  "displayName": "Oxygen Theme",
+  "description": "Oxygen Theme is a theme for lovers of minimalism and blue-purple colors.",
+  "version": "1.0.0",
+  "publisher": "Merrcurys",
+  "icon": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/merrcurys"
+  },
+  "keywords": [
+    "theme",
+    "сarbon",
+    "ibm carbon",
+    "oxocarbon",
+    "merrcurys"
+  ],
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Oxygen Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oxygen-theme.json"
+      }
+    ]
+  }
+}
