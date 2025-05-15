@@ -1,7 +1,12 @@
-![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=0:4b3aba,100:9090e8&text=Oxygen%20Theme&textBg=false&fontAlignY=40&reversal=false&section=header&fontColor=FFF)
+# Oxygen Theme
+
+![Python Code Example](./screenshots/preview.png)
+
+> Like a breath of fresh air in a sea of code — Introducing Oxygen Theme
+
 **A Visual Studio Code color theme in calming blue and violet tones**, inspired by CodeSandbox's aesthetic. Perfect for long coding sessions, combining eye comfort with stylish design.
 
-![Python Code Example](PythonTest.png)
+![Python Code Example](./screenshots/PythonTest.png)
 
 ## Features  
 - **Harmonious Palette**: Blend of deep violet accents and soft blue backgrounds  
@@ -12,7 +17,9 @@
 1. Open VS Code Extensions Marketplace  
 2. Search for **"Oxygen Theme"**  
 3. Click `Install`  
-4. Activate via `Ctrl/Cmd + Shift + P` → "Preferences: Color Theme" → "Oxygen"  
+4. Activate via `Ctrl/Cmd + Shift + P` → "Preferences: Color Theme" → "Oxygen"
+
+> As a temporary solution, while the theme is not in the VSC store, I suggest you download this archive and move it to `C:\Users\User\.vscode\extensions.` After that, you will find it in the extensions window.
 
 Support
 Found a bug or have suggestions?

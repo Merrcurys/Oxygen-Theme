@@ -4,7 +4,7 @@
   "description": "Oxygen Theme is a theme for lovers of minimalism and blue-purple colors.",
   "version": "1.0.0",
   "publisher": "Merrcurys",
-  "icon": "logo.png",
+  "icon": "./screenshots/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Merrcurys/Oxygen-Theme"
