@@ -3,21 +3,25 @@
 	"name": "Oxygen Theme",
 	"type": "dark",
 	"colors": {
+		// Общие настройки интерфейса
 		"contrastBorder": "#343434",
-		"contrastActiveBorder": null,
 		"errorForeground": "#E1270E",
 		"focusBorder": "#343434",
 		"foreground": "#e6e6e6",
+		// Боковая панель активности
 		"activityBar.background": "#151515",
 		"activityBar.border": "#343434",
 		"activityBarBadge.background": "#242424",
-		"button.background": "#77B7D7",
+		// Кнопки
+		"button.background": "#7a9afb",
 		"button.foreground": "#fff",
-		"button.border": "#77B7D7",
-		"button.hoverBackground": "#977CDC",
+		"button.border": "#7a9afb",
+		"button.hoverBackground": "#6188ff",
+		// Выпадающие списки
 		"dropdown.background": "#151515",
 		"dropdown.border": "#343434",
 		"dropdown.foreground": "#fff",
+		// Редактор
 		"editor.background": "#151515",
 		"editor.foreground": "#fff",
 		"editor.hoverHighlightBackground": "#242424",
@@ -36,10 +40,8 @@
 		"editorCursor.foreground": "#fff",
 		"editorError.border": "#343434",
 		"editorError.foreground": "#E1270E",
-		"editorGroup.background": "#151515",
 		"editorGroup.border": "#343434",
 		"editorGroup.dropBackground": "#3793E01a",
-		"editorGroupHeader.noTabsBackground": null,
 		"editorGroupHeader.tabsBackground": "#151515",
 		"editorGroupHeader.tabsBorder": "#343434",
 		"editorGutter.background": "#151515",
@@ -47,7 +49,7 @@
 		"editorGutter.modifiedBackground": "#151515",
 		"editorHoverWidget.background": "#151515",
 		"editorHoverWidget.border": "#343434",
-		"editorIndentGuide.background": "#151515",
+		"editorIndentGuide.background1": "#151515",
 		"editorLink.activeForeground": "#fff",
 		"editorLineNumber.foreground": "#343434",
 		"editorLineNumber.activeForeground": "#757575",
@@ -68,22 +70,19 @@
 		"editorWhitespace.foreground": "#242424",
 		"editorWidget.background": "#151515",
 		"editorWidget.border": "#343434",
+		// Кнопки расширений
 		"extensionButton.prominentBackground": "#343434",
 		"extensionButton.prominentForeground": "#fff",
 		"extensionButton.prominentHoverBackground": "#343434",
+		// Поля ввода
 		"input.background": "#343434",
 		"input.foreground": "#fff",
 		"input.placeholderForeground": "#999999",
 		"inputOption.activeBorder": "#242424",
-		"inputValidation.infoForeground": null,
-		"inputValidation.infoBackground": null,
 		"inputValidation.infoBorder": "#BF5AF2",
-		"inputValidation.warningForeground": null,
-		"inputValidation.warningBackground": null,
 		"inputValidation.warningBorder": "#FBCC43",
-		"inputValidation.errorForeground": null,
-		"inputValidation.errorBackground": null,
 		"inputValidation.errorBorder": "#E1270E",
+		// Списки
 		"list.dropBackground": "#151515",
 		"list.highlightForeground": "#6CC7F6",
 		"list.hoverBackground": "#343434",
@@ -94,14 +93,13 @@
 		"list.inactiveSelectionForeground": "#fff",
 		"list.warningForeground": "#FBCC43",
 		"list.errorForeground": "#E1270E",
-		"list.hoverForeground": null,
-		"list.focusForeground": null,
+		// Меню
 		"menu.background": "#151515",
 		"menu.selectionBackground": "#343434",
+		// Просмотр
 		"peekView.border": "#242424",
 		"peekViewEditor.background": "#343434",
 		"peekViewEditor.matchHighlightBackground": "#6CC7F6",
-		"peekViewEditorGutter.background": null,
 		"peekViewResult.background": "#343434",
 		"peekViewResult.fileForeground": "#fff",
 		"peekViewResult.lineForeground": "#fff",
@@ -111,11 +109,9 @@
 		"peekViewTitle.background": "#343434",
 		"peekViewTitleDescription.foreground": "#535BCF",
 		"peekViewTitleLabel.foreground": "#fff",
+		// Полоса прокрутки
 		"scrollbarSlider.activeBackground": "#fff",
-		"scrollbarSlider.border": "#343434",
-		"scrollbarSlider.background": null,
-		"scrollbarSlider.hoverBackground": null,
-
+		// Git декорации
 		"gitDecoration.addedResourceForeground": "#44baaf",
 		"gitDecoration.conflictingResourceForeground": "#ba4444",
 		"gitDecoration.deletedResourceForeground": "#ba4481",
@@ -124,17 +120,17 @@
 		"gitDecoration.stageModifiedResourceForeground": "#7a9afb",
 		"gitDecoration.submoduleResourceForeground": "#8db9e2",
 		"gitDecoration.untrackedResourceForeground": "#42b8ad",
-
+		// Выделение
 		"selection.background": "#3793E040",
-		"separator.foreground": "#fff",
+		// Боковая панель
 		"sideBar.background": "#151515",
-		"sideBar.hoverBackground": "#343434",
 		"sideBar.border": "#343434",
 		"sideBar.foreground": "#e6e6e6",
 		"sideBarSectionHeader.background": "#151515",
 		"sideBarSectionHeader.foreground": "#fff",
 		"sideBarSectionHeader.border": "#343434",
 		"sideBarTitle.foreground": "#fff",
+		// Строка состояния
 		"statusBar.background": "#171717",
 		"statusBar.foreground": "#fff",
 		"statusBar.debuggingBackground": "#E1270E",
@@ -142,21 +138,20 @@
 		"statusBar.noFolderBackground": "#171717",
 		"statusBar.noFolderForeground": "#fff",
 		"statusBar.border": "#171717",
-		"statusBarItem.activeBackground": null,
-		"statusBarItem.hoverBackground": null,
 		"statusBarItem.prominentBackground": "#E1270E",
 		"statusBarItem.prominentHoverBackground": "#FBCC43",
-		"statusBarItem.remoteForeground": "#fff9f9",
+		"statusBarItem.remoteForeground": "#e6e6e6",
 		"statusBarItem.remoteBackground": "#171717",
+		// Вкладки
 		"tab.activeBackground": "#151515",
 		"tab.activeForeground": "#fff",
 		"tab.border": "#343434",
 		"tab.activeBorder": "#6CC7F6",
-		"tab.unfocusedActiveBorder": null,
 		"tab.inactiveBackground": "#151515",
 		"tab.inactiveForeground": "#757575",
 		"tab.unfocusedActiveForeground": "#fff",
 		"tab.unfocusedInactiveForeground": "#757575",
+		// Терминал
 		"terminal.background": "#151515",
 		"terminal.foreground": "#fff",
 		"terminal.ansiBrightBlack": "#535BCF",
@@ -171,14 +166,16 @@
 		"terminal.ansiMagenta": "#BF5AF2",
 		"terminal.ansiCyan": "#6CC7F6",
 		"terminal.ansiWhite": "#fff",
-		"titleBar.background": "#151515",
+		// Заголовок окна
 		"titleBar.activeBackground": "#151515",
 		"titleBar.activeForeground": "#fff",
 		"titleBar.border": "#343434",
 		"titleBar.inactiveBackground": "#151515",
 		"titleBar.inactiveForeground": "#999999"
 	},
+	// Настройки токенов по языкам программирования
 	"tokenColors": [
+		// Комментарии
 		{
 			"name": "Comment",
 			"scope": [
@@ -198,6 +195,7 @@
 				"foreground": "#DFE2E7"
 			}
 		},
+		// Сущности и типы
 		{
 			"name": "Entity Name Type",
 			"scope": [
@@ -213,9 +211,65 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "Entity Name Function",
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "Entity Name Class,entity Name Type Class",
+			"scope": [
+				"entity.name.class",
+				"entity.name.type.class"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "Entity Name Section",
+			"scope": [
+				"entity.name.section"
+			],
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "Entity Name Tag",
+			"scope": [
+				"entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "Entity Other Attribute Name",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
 				"foreground": "#77B7D7"
 			}
 		},
+		{
+			"name": "Entity Other Attribute Name Id",
+			"scope": [
+				"entity.other.attribute-name.id"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		// Ключевые слова
 		{
 			"name": "Keyword",
 			"scope": [
@@ -258,9 +312,10 @@
 				"keyword.other.unit"
 			],
 			"settings": {
-				"foreground": "#C64640"
+				"foreground": "#78a9ff"
 			}
 		},
+		// Хранение и типы
 		{
 			"name": "Storage",
 			"scope": [
@@ -290,6 +345,7 @@
 				"foreground": "#DFE2E7"
 			}
 		},
+		// Константы
 		{
 			"name": "Constant",
 			"scope": [
@@ -344,6 +400,7 @@
 				"foreground": "#DFE2E7"
 			}
 		},
+		// Переменные
 		{
 			"name": "Variable",
 			"scope": [
@@ -371,6 +428,7 @@
 				"foreground": "#DFE2E7"
 			}
 		},
+		// Строки
 		{
 			"name": "String",
 			"scope": [
@@ -407,6 +465,7 @@
 				"foreground": "#DFE2E7"
 			}
 		},
+		// Пунктуация
 		{
 			"name": "Punctuation Definition Comment",
 			"scope": [
@@ -480,6 +539,7 @@
 				"foreground": "#DFE2E7"
 			}
 		},
+		// Поддержка
 		{
 			"name": "Support Class",
 			"scope": [
@@ -516,61 +576,7 @@
 				"foreground": "#DFE2E7"
 			}
 		},
-		{
-			"name": "Entity Name Function",
-			"scope": [
-				"entity.name.function"
-			],
-			"settings": {
-				"foreground": "#86D9CA"
-			}
-		},
-		{
-			"name": "Entity Name Class,entity Name Type Class",
-			"scope": [
-				"entity.name.class",
-				"entity.name.type.class"
-			],
-			"settings": {
-				"foreground": "#86D9CA"
-			}
-		},
-		{
-			"name": "Entity Name Section",
-			"scope": [
-				"entity.name.section"
-			],
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "Entity Name Tag",
-			"scope": [
-				"entity.name.tag"
-			],
-			"settings": {
-				"foreground": "#86D9CA"
-			}
-		},
-		{
-			"name": "Entity Other Attribute Name",
-			"scope": [
-				"entity.other.attribute-name"
-			],
-			"settings": {
-				"foreground": "#77B7D7"
-			}
-		},
-		{
-			"name": "Entity Other Attribute Name Id",
-			"scope": [
-				"entity.other.attribute-name.id"
-			],
-			"settings": {
-				"foreground": "#77B7D7"
-			}
-		},
+		// Мета-элементы
 		{
 			"name": "Meta Class",
 			"scope": [
@@ -653,15 +659,7 @@
 				"foreground": "#DFE2E7"
 			}
 		},
-		{
-			"name": "Underline",
-			"scope": [
-				"underline"
-			],
-			"settings": {
-				"text-decoration": "underline"
-			}
-		},
+		// Форматирование
 		{
 			"name": "None",
 			"scope": [
@@ -671,14 +669,14 @@
 				"foreground": "#DFE2E7"
 			}
 		},
+		// Недопустимые элементы
 		{
 			"name": "Invalid Deprecated",
 			"scope": [
 				"invalid.deprecated"
 			],
 			"settings": {
-				"foreground": "#DFE2E7",
-				"background": "#E0C285"
+				"foreground": "#DFE2E7"
 			}
 		},
 		{
@@ -688,9 +686,9 @@
 			],
 			"settings": {
 				"foreground": "#DFE2E7",
-				"background": "#E05252"
 			}
 		},
+		// Разметка
 		{
 			"name": "Markup Bold",
 			"scope": [
@@ -783,6 +781,38 @@
 				"foreground": "#DFE2E7"
 			}
 		},
+		// Пользовательские правила
+		{
+			"name": "customrule",
+			"scope": "customrule",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		// VS Code специфичные настройки
+		{
+			"name": "[VSCODE-CUSTOM] Support Type Property Name",
+			"scope": "support.type.property-name",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Punctuation for Quoted String",
+			"scope": "string.quoted.double punctuation",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Support Constant",
+			"scope": "support.constant",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		// Специфичные для языков
+		// C/C++/C#
 		{
 			"name": "Source C Keyword Operator",
 			"scope": [
@@ -810,6 +840,57 @@
 				"foreground": "#77B7D7"
 			}
 		},
+		// C#
+		{
+			"name": "[VSCODE-CUSTOM] CSharp Fields",
+			"scope": "entity.name.variable.field.cs",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] CSharp Keyword Operators",
+			"scope": "source.cs keyword.operator",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] CSharp Variables",
+			"scope": "variable.other.readwrite.cs",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] CSharp Variables Other",
+			"scope": "variable.other.object.cs",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] CSharp Property Other",
+			"scope": "variable.other.object.property.cs",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] CSharp Property",
+			"scope": "entity.name.variable.property.cs",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] CSharp Storage Type",
+			"scope": "storage.type.cs",
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		// CSS
 		{
 			"name": "Source Css Property Name,source Css Property Value",
 			"scope": [
@@ -830,24 +911,43 @@
 				"foreground": "#77B7D7"
 			}
 		},
+		// CSS/SASS
 		{
-			"name": "Source Gfm Markup",
-			"scope": [
-				"source.gfm markup"
-			],
-			"settings": {
-				"-webkit-font-smoothing": "auto"
-			}
-		},
-		{
-			"name": "Source Gfm Link Entity",
-			"scope": [
-				"source.gfm link entity"
-			],
+			"name": "[VSCODE-CUSTOM] Css Support Constant Value",
+			"scope": "support.constant.property-value.css",
 			"settings": {
 				"foreground": "#77B7D7"
 			}
 		},
+		{
+			"name": "[VSCODE-CUSTOM] Css Punctuation Definition Constant",
+			"scope": "punctuation.definition.constant.css",
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Sass Punctuation for key-value",
+			"scope": "punctuation.separator.key-value.scss",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Sass Punctuation for constants",
+			"scope": "punctuation.definition.constant.scss",
+			"settings": {
+				"foreground": "#977CDC"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Sass Punctuation for key-value",
+			"scope": "meta.property-list.scss punctuation.separator.key-value.scss",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		// Go
 		{
 			"name": "Source Go Storage Type String",
 			"scope": [
@@ -857,6 +957,7 @@
 				"foreground": "#77B7D7"
 			}
 		},
+		// INI
 		{
 			"name": "Source Ini Keyword Other Definition Ini",
 			"scope": [
@@ -866,6 +967,7 @@
 				"foreground": "#77B7D7"
 			}
 		},
+		// Java
 		{
 			"name": "Source Java Storage Modifier Import",
 			"scope": [
@@ -912,29 +1014,13 @@
 			}
 		},
 		{
-			"name": "Source Js Keyword Operator",
-			"scope": [
-				"source.js keyword.operator"
-			],
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "Source Js Keyword Operator Delete,source Js Keyword Operator In,source Js Keyword Operator Of,source Js Keyword Operator Instanceof,source Js Keyword Operator New,source Js Keyword Operator Typeof,source Js Keyword Operator Void",
-			"scope": [
-				"source.js keyword.operator.delete",
-				"source.js keyword.operator.in",
-				"source.js keyword.operator.of",
-				"source.js keyword.operator.instanceof",
-				"source.js keyword.operator.new",
-				"source.js keyword.operator.typeof",
-				"source.js keyword.operator.void"
-			],
+			"name": "[VSCODE-CUSTOM] Java Storage Type Primitive Array",
+			"scope": "storage.type.primitive.array.java",
 			"settings": {
 				"foreground": "#77B7D7"
 			}
 		},
+		// JSON
 		{
 			"name": "Source Json Meta Structure Dictionary Json > String Quoted Json",
 			"scope": [
@@ -975,6 +1061,7 @@
 				"foreground": "#77B7D7"
 			}
 		},
+		// Ruby
 		{
 			"name": "Source Ruby Constant Other Symbol > Punctuation",
 			"scope": [
@@ -985,6 +1072,21 @@
 			}
 		},
 		{
+			"name": "[VSCODE-CUSTOM] Ruby Punctuation Separator Variable",
+			"scope": "punctuation.separator.variable.ruby",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Ruby Other Constant Variable",
+			"scope": "variable.other.constant.ruby",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		// Python
+		{
 			"name": "Source Python Keyword Operator Logical Python",
 			"scope": [
 				"source.python keyword.operator.logical.python"
@@ -994,14 +1096,55 @@
 			}
 		},
 		{
-			"name": "Source Python Variable Parameter",
-			"scope": [
-				"source.python variable.parameter"
-			],
+			"name": "[VSCODE-CUSTOM] Python Constants Other",
+			"scope": "source.python constant.other",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Python Constants",
+			"scope": "source.python constant",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Python Placeholder Character",
+			"scope": "constant.character.format.placeholder.other.python storage",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Python Magic",
+			"scope": "support.variable.magic.python",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Python Meta Function Parameters",
+			"scope": "meta.function.parameters.python",
 			"settings": {
 				"foreground": "#77B7D7"
 			}
 		},
+		{
+			"name": "[VSCODE-CUSTOM] Python Function Separator Annotation",
+			"scope": "punctuation.separator.annotation.python",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Python Function Separator Punctuation",
+			"scope": "punctuation.separator.parameters.python",
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		// Rust
 		{
 			"name": "Meta Attribute Rust",
 			"scope": [
@@ -1031,33 +1174,13 @@
 			}
 		},
 		{
-			"name": "customrule",
-			"scope": "customrule",
+			"name": "[VSCODE-CUSTOM] Rust Unsafe Keyword",
+			"scope": "keyword.other.unsafe.rust",
 			"settings": {
 				"foreground": "#DFE2E7"
 			}
 		},
-		{
-			"name": "[VSCODE-CUSTOM] Support Type Property Name",
-			"scope": "support.type.property-name",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Punctuation for Quoted String",
-			"scope": "string.quoted.double punctuation",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Support Constant",
-			"scope": "support.constant",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
+		// JSON
 		{
 			"name": "[VSCODE-CUSTOM] JSON Property Name",
 			"scope": "support.type.property-name.json",
@@ -1070,6 +1193,101 @@
 			"scope": "support.type.property-name.json punctuation",
 			"settings": {
 				"foreground": "#DFE2E7"
+			}
+		},
+		// JSON специфичные настройки
+		{
+			"name": "[VSCODE-CUSTOM] JSON Constants",
+			"scope": [
+				"constant.language.json"
+			],
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] JS/TS Object Constants",
+			"scope": [
+				"variable.other.constant.object.js",
+				"variable.other.constant.object.jsx",
+				"variable.other.constant.object.ts",
+				"variable.other.constant.object.tsx"
+			],
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] JS/TS Properties Keyword",
+			"scope": [
+				"storage.type.property.js",
+				"storage.type.property.jsx",
+				"storage.type.property.ts",
+				"storage.type.property.tsx"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] JS/TS Single Quote Inside Templated String",
+			"scope": [
+				"meta.template.expression.js string.quoted punctuation.definition",
+				"meta.template.expression.jsx string.quoted punctuation.definition",
+				"meta.template.expression.ts string.quoted punctuation.definition",
+				"meta.template.expression.tsx string.quoted punctuation.definition"
+			],
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] JS/TS Backtick inside Templated String",
+			"scope": [
+				"meta.template.expression.js string.template punctuation.definition.string.template",
+				"meta.template.expression.jsx string.template punctuation.definition.string.template",
+				"meta.template.expression.ts string.template punctuation.definition.string.template",
+				"meta.template.expression.tsx string.template punctuation.definition.string.template"
+			],
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] JS/TS In Keyword for Loops",
+			"scope": [
+				"keyword.operator.expression.in.js",
+				"keyword.operator.expression.in.jsx",
+				"keyword.operator.expression.in.ts",
+				"keyword.operator.expression.in.tsx"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		// JavaScript/TypeScript
+		{
+			"name": "Source Js Keyword Operator",
+			"scope": [
+				"source.js keyword.operator"
+			],
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "Source Js Keyword Operator Delete,source Js Keyword Operator In,source Js Keyword Operator Of,source Js Keyword Operator Instanceof,source Js Keyword Operator New,source Js Keyword Operator Typeof,source Js Keyword Operator Void",
+			"scope": [
+				"source.js keyword.operator.delete",
+				"source.js keyword.operator.in",
+				"source.js keyword.operator.of",
+				"source.js keyword.operator.instanceof",
+				"source.js keyword.operator.new",
+				"source.js keyword.operator.typeof",
+				"source.js keyword.operator.void"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -1490,187 +1708,7 @@
 				"foreground": "#DFE2E7"
 			}
 		},
-		{
-			"name": "[VSCODE-CUSTOM] JSON Constants",
-			"scope": [
-				"constant.language.json"
-			],
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] JS/TS Object Constants",
-			"scope": [
-				"variable.other.constant.object.js",
-				"variable.other.constant.object.jsx",
-				"variable.other.constant.object.ts",
-				"variable.other.constant.object.tsx"
-			],
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] JS/TS Properties Keyword",
-			"scope": [
-				"storage.type.property.js",
-				"storage.type.property.jsx",
-				"storage.type.property.ts",
-				"storage.type.property.tsx"
-			],
-			"settings": {
-				"foreground": "#77B7D7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] JS/TS Single Quote Inside Templated String",
-			"scope": [
-				"meta.template.expression.js string.quoted punctuation.definition",
-				"meta.template.expression.jsx string.quoted punctuation.definition",
-				"meta.template.expression.ts string.quoted punctuation.definition",
-				"meta.template.expression.tsx string.quoted punctuation.definition"
-			],
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] JS/TS Backtick inside Templated String",
-			"scope": [
-				"meta.template.expression.js string.template punctuation.definition.string.template",
-				"meta.template.expression.jsx string.template punctuation.definition.string.template",
-				"meta.template.expression.ts string.template punctuation.definition.string.template",
-				"meta.template.expression.tsx string.template punctuation.definition.string.template"
-			],
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] JS/TS In Keyword for Loops",
-			"scope": [
-				"keyword.operator.expression.in.js",
-				"keyword.operator.expression.in.jsx",
-				"keyword.operator.expression.in.ts",
-				"keyword.operator.expression.in.tsx"
-			],
-			"settings": {
-				"foreground": "#77B7D7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Python Constants Other",
-			"scope": "source.python constant.other",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Python Constants",
-			"scope": "source.python constant",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Python Placeholder Character",
-			"scope": "constant.character.format.placeholder.other.python storage",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Python Magic",
-			"scope": "support.variable.magic.python",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Python Meta Function Parameters",
-			"scope": "meta.function.parameters.python",
-			"settings": {
-				"foreground": "#77B7D7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Python Function Separator Annotation",
-			"scope": "punctuation.separator.annotation.python",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Python Function Separator Punctuation",
-			"scope": "punctuation.separator.parameters.python",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] CSharp Fields",
-			"scope": "entity.name.variable.field.cs",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] CSharp Keyword Operators",
-			"scope": "source.cs keyword.operator",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] CSharp Variables",
-			"scope": "variable.other.readwrite.cs",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] CSharp Variables Other",
-			"scope": "variable.other.object.cs",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] CSharp Property Other",
-			"scope": "variable.other.object.property.cs",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] CSharp Property",
-			"scope": "entity.name.variable.property.cs",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] CSharp Storage Type",
-			"scope": "storage.type.cs",
-			"settings": {
-				"foreground": "#77B7D7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Rust Unsafe Keyword",
-			"scope": "keyword.other.unsafe.rust",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Markdown Raw Block",
-			"scope": "markup.raw.block.markdown",
-			"settings": {
-				"foreground": "#977CDC"
-			}
-		},
+		// Shell
 		{
 			"name": "[VSCODE-CUSTOM] Shell Variables Punctuation Definition",
 			"scope": "punctuation.definition.variable.shell",
@@ -1678,46 +1716,22 @@
 				"foreground": "#DFE2E7"
 			}
 		},
+		// GFM (GitHub Flavored Markdown)
 		{
-			"name": "[VSCODE-CUSTOM] Css Support Constant Value",
-			"scope": "support.constant.property-value.css",
-			"settings": {
-				"foreground": "#DFAB5C"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Css Punctuation Definition Constant",
-			"scope": "punctuation.definition.constant.css",
-			"settings": {
-				"foreground": "#DFAB5C"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Sass Punctuation for key-value",
-			"scope": "punctuation.separator.key-value.scss",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Sass Punctuation for constants",
-			"scope": "punctuation.definition.constant.scss",
-			"settings": {
-				"foreground": "#977CDC"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Sass Punctuation for key-value",
-			"scope": "meta.property-list.scss punctuation.separator.key-value.scss",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Java Storage Type Primitive Array",
-			"scope": "storage.type.primitive.array.java",
+			"name": "Source Gfm Link Entity",
+			"scope": [
+				"source.gfm link entity"
+			],
 			"settings": {
 				"foreground": "#77B7D7"
+			}
+		},
+		// Markdown
+		{
+			"name": "[VSCODE-CUSTOM] Markdown Raw Block",
+			"scope": "markup.raw.block.markdown",
+			"settings": {
+				"foreground": "#977CDC"
 			}
 		},
 		{
@@ -1795,7 +1809,7 @@
 				"markup.underline.link.image.markdown"
 			],
 			"settings": {
-				"foreground": "#DFAB5C"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -1806,65 +1820,6 @@
 			],
 			"settings": {
 				"foreground": "#977CDC"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Ruby Punctuation Separator Variable",
-			"scope": "punctuation.separator.variable.ruby",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Ruby Other Constant Variable",
-			"scope": "variable.other.constant.ruby",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Ruby Keyword Operator Other",
-			"scope": "keyword.operator.other.ruby",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] PHP Punctuation Variable Definition",
-			"scope": "punctuation.definition.variable.php",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] PHP Meta Class",
-			"scope": "meta.class.php",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"scope": "token.info-token",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"scope": "token.warn-token",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"scope": "token.error-token",
-			"settings": {
-				"foreground": "#DFE2E7"
-			}
-		},
-		{
-			"scope": "token.debug-token",
-			"settings": {
-				"foreground": "#DFE2E7"
 			}
 		}
 	]

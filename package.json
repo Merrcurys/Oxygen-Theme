@@ -25,7 +25,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Oxygen Theme",
+        "label": "Oxygen",
         "uiTheme": "vs-dark",
         "path": "./themes/oxygen-theme.json"
       }
