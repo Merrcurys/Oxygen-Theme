@@ -1,16 +1,19 @@
-# oxygen-theme README
+![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=0:4b3aba,100:9090e8&text=Oxygen%20Theme&textBg=false&fontAlignY=40&reversal=false&section=header&fontColor=FFF)
+**A Visual Studio Code color theme in calming blue and violet tones**, inspired by CodeSandbox's aesthetic. Perfect for long coding sessions, combining eye comfort with stylish design.
 
-## Working with Markdown
+![Python Code Example](https://github.com/Merrcurys/Oxygen-Theme/blob/main//PythonTest.png)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Features  
+- **Harmonious Palette**: Blend of deep violet accents and soft blue backgrounds  
+- **Optimized Readability**: Clear syntax element differentiation  
+- **Universal Support**: Works great with popular languages
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Installation  
+1. Open VS Code Extensions Marketplace  
+2. Search for **"Oxygen Theme"**  
+3. Click `Install`  
+4. Activate via `Ctrl/Cmd + Shift + P` → "Preferences: Color Theme" → "Oxygen"  
 
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Support
+Found a bug or have suggestions?
+[Open an issue](https://github.com/Merrcurys/Oxygen-Theme/issues)
