@@ -19,8 +19,6 @@
 3. Click `Install`  
 4. Activate via `Ctrl/Cmd + Shift + P` → "Preferences: Color Theme" → "Oxygen"
 
-> As a temporary solution, while the theme is not in the VSC store, I suggest you download this archive and move it to `C:\Users\User\.vscode\extensions.` After that, you will find it in the extensions window.
-
 Support
 Found a bug or have suggestions?
 [Open an issue](https://github.com/Merrcurys/Oxygen-Theme/issues)
