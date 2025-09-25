@@ -1,10 +1,10 @@
 {
-  "name": "oxygen-theme",
-  "displayName": "Oxygen Theme",
+  "name": "oxygen-lite-theme",
+  "displayName": "Oxygen Lite Theme",
   "description": "Oxygen Theme is a theme for lovers of minimalism and blue-purple colors.",
   "version": "1.0.0",
   "publisher": "Merrcurys",
-  "icon": "./screenshots/icon.png",
+  "icon": "screenshots/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Merrcurys/Oxygen-Theme"
@@ -13,6 +13,8 @@
     "theme",
     "сarbon",
     "ibm carbon",
+    "oxygen",
+    "oxygen lite",
     "oxocarbon",
     "merrcurys"
   ],

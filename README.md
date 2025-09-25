@@ -1,12 +1,12 @@
 # Oxygen Theme
 
-![Python Code Example](./screenshots/preview.png)
+![Python Code Example](screenshots/preview.png)
 
 > Like a breath of fresh air in a sea of code — Introducing Oxygen Theme
 
 **A Visual Studio Code color theme in calming blue and violet tones**, inspired by CodeSandbox's aesthetic. Perfect for long coding sessions, combining eye comfort with stylish design.
 
-![Python Code Example](./screenshots/PythonTest.png)
+![Python Code Example](screenshots/PythonTest.png)
 
 ## Features  
 - **Harmonious Palette**: Blend of deep violet accents and soft blue backgrounds  
@@ -15,7 +15,7 @@
 
 ## Installation  
 1. Open VS Code Extensions Marketplace  
-2. Search for **"Oxygen Theme"**  
+2. Search for **"[Oxygen Lite Theme](https://marketplace.visualstudio.com/items?itemName=Merrcurys.oxygen-lite-theme)"**  
 3. Click `Install`  
 4. Activate via `Ctrl/Cmd + Shift + P` → "Preferences: Color Theme" → "Oxygen"
 
