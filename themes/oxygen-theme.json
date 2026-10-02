@@ -17,7 +17,7 @@
 		"macro": "#86D9CA",
 		"decorator": "#77B7D7",
 		"parameter": "#DFE2E7",
-		"variable": "#C792EA",
+		"variable": "#DFE2E7",
 		"property": "#DFE2E7",
 		"enumMember": "#F286C4",
 		"event": "#77B7D7",
@@ -75,6 +75,14 @@
 		"editor.wordHighlightBackground": "#343434",
 		"editorBracketMatch.background": "#343434",
 		"editorBracketMatch.border": "#343434",
+		// Цвета парной раскраски скобок в палитре темы
+		"editorBracketHighlight.foreground1": "#F286C4",
+		"editorBracketHighlight.foreground2": "#DFE2E7",
+		"editorBracketHighlight.foreground3": "#77B7D7",
+		"editorBracketHighlight.foreground4": "#86D9CA",
+		"editorBracketHighlight.foreground5": "#78A9FF",
+		"editorBracketHighlight.foreground6": "#977CDC",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#E1270E",
 		"editorCodeLens.foreground": "#343434",
 		"editorCursor.background": "#151515",
 		"editorCursor.foreground": "#fff",
@@ -428,7 +436,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#DFE2E7"
 			}
 		},
 		{
@@ -447,7 +455,7 @@
 				"variable"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#DFE2E7"
 			}
 		},
 		{
@@ -938,7 +946,7 @@
 				"source.css property-value"
 			],
 			"settings": {
-				"foreground": "#77B7D7"
+				"foreground": "#DFE2E7"
 			}
 		},
 		{
@@ -948,7 +956,7 @@
 				"source.css property-value.support"
 			],
 			"settings": {
-				"foreground": "#77B7D7"
+				"foreground": "#DFE2E7"
 			}
 		},
 		// CSS/SASS
@@ -956,14 +964,14 @@
 			"name": "[VSCODE-CUSTOM] Css Support Constant Value",
 			"scope": "support.constant.property-value.css",
 			"settings": {
-				"foreground": "#77B7D7"
+				"foreground": "#DFE2E7"
 			}
 		},
 		{
 			"name": "[VSCODE-CUSTOM] Css Punctuation Definition Constant",
 			"scope": "punctuation.definition.constant.css",
 			"settings": {
-				"foreground": "#77B7D7"
+				"foreground": "#DFE2E7"
 			}
 		},
 		{
@@ -1904,7 +1912,7 @@
 				"punctuation.section.embedded.dockerfile"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#DFE2E7"
 			}
 		},
 		{
@@ -1978,7 +1986,7 @@
 				"variable.parameter.rust"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#DFE2E7"
 			}
 		},
 		{
@@ -2139,7 +2147,7 @@
 				"meta.object-literal.key.tsx"
 			],
 			"settings": {
-				"foreground": "#77B7D7"
+				"foreground": "#DFE2E7"
 			}
 		},
 		{
@@ -2189,7 +2197,7 @@
 				"variable.parameter.go"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#DFE2E7"
 			}
 		},
 		{
@@ -2234,7 +2242,7 @@
 				"variable.parameter.java"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#DFE2E7"
 			}
 		},
 		{
@@ -2285,7 +2293,7 @@
 				"variable.parameter.cpp"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#DFE2E7"
 			}
 		},
 		{
@@ -2330,7 +2338,7 @@
 				"punctuation.definition.variable.php"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#DFE2E7"
 			}
 		},
 		{
@@ -2372,7 +2380,7 @@
 				"variable.other.constant.ruby"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#DFE2E7"
 			}
 		},
 		{
@@ -2428,7 +2436,7 @@
 				"variable.parameter.dart"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#DFE2E7"
 			}
 		},
 		{
@@ -2492,28 +2500,28 @@
 		},
 		// ==================== CSS / SCSS / LESS ====================
 		{
-			"name": "[VSCODE-CUSTOM] CSS Tags and Selectors",
+			"name": "[VSCODE-CUSTOM] CSS Element Tags",
 			"scope": [
 				"entity.name.tag.css",
 				"entity.name.tag.scss",
-				"entity.name.tag.less",
-				"entity.other.attribute-name.class.css",
-				"entity.other.attribute-name.class.scss",
-				"entity.other.attribute-name.class.less"
+				"entity.name.tag.less"
 			],
 			"settings": {
 				"foreground": "#86D9CA"
 			}
 		},
 		{
-			"name": "[VSCODE-CUSTOM] CSS Ids",
+			"name": "[VSCODE-CUSTOM] CSS Classes and Ids",
 			"scope": [
+				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.class.scss",
+				"entity.other.attribute-name.class.less",
 				"entity.other.attribute-name.id.css",
 				"entity.other.attribute-name.id.scss",
 				"entity.other.attribute-name.id.less"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#977CDC"
 			}
 		},
 		{
@@ -2525,7 +2533,7 @@
 				"entity.other.attribute-name.pseudo-element.scss"
 			],
 			"settings": {
-				"foreground": "#977CDC"
+				"foreground": "#86D9CA"
 			}
 		},
 		{
@@ -2536,7 +2544,7 @@
 				"support.type.property-name.less"
 			],
 			"settings": {
-				"foreground": "#77B7D7"
+				"foreground": "#DFE2E7"
 			}
 		},
 		// ==================== YAML ====================
@@ -2680,7 +2688,7 @@
 				"variable.other.readwrite.powershell"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#DFE2E7"
 			}
 		},
 		{
@@ -2719,7 +2727,7 @@
 				"variable.parameter.lua"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#DFE2E7"
 			}
 		},
 		{
@@ -2758,7 +2766,7 @@
 				"variable.other.makefile"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#DFE2E7"
 			}
 		},
 		// ==================== Terraform (HCL) ====================
@@ -2788,7 +2796,7 @@
 				"variable.other.terraform"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#DFE2E7"
 			}
 		},
 		// ==================== GraphQL ====================
@@ -2818,7 +2826,7 @@
 				"variable.other.graphql"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#DFE2E7"
 			}
 		},
 		// ==================== .env / dotenv ====================
