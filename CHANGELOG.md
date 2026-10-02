@@ -5,6 +5,7 @@
 - Variables and identifiers are now white (`#DFE2E7`) instead of violet, so ordinary code stays quiet and only meaningful tokens are highlighted.
 - CSS/SCSS/LESS: properties and values are white, classes and ids are violet, element tags and pseudo selectors (including `:root`) are teal.
 - JS/TS object literal keys are white to match semantic `property`.
+- Added themed bracket pair colorization (`editorBracketHighlight.foreground1-6`) so brackets no longer fall back to VS Code's default yellow/orchid palette.
 
 ## [1.1.1] - 2026-10-02
 
@@ -12,7 +13,6 @@
 - Replaced the orange variables (`#DFAB5C`) with soft violet (`#C792EA`).
 - Classes (`support.class`) now use the teal type color for consistency with semantic `class`.
 - Editor warnings (`editorWarning`, `list.warningForeground`, `inputValidation.warningBorder`) and terminal ANSI yellow stay yellow.
-- Added themed bracket pair colorization (`editorBracketHighlight.foreground1-6`) so brackets no longer fall back to VS Code's default yellow/orchid palette.
 
 ## [1.1.0] - 2026-10-02
 
