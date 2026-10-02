@@ -13,6 +13,16 @@
 - **Optimized Readability**: Clear syntax element differentiation  
 - **Universal Support**: Works great with popular languages
 
+## Supported Languages
+Oxygen uses both TextMate rules and semantic highlighting, so popular languages are covered out of the box:
+
+- **Python**, **JavaScript/TypeScript**, **JSX/TSX**
+- **Rust**, **C/C++**, **C#**, **Go**, **Java**, **Kotlin**, **Swift**, **Dart**, **PHP**, **Ruby**, **Lua**
+- **Dockerfile**, **Shell/Bash**, **PowerShell**, **Makefile**
+- **HTML**, **Vue**, **Svelte**, **CSS/SCSS/LESS**
+- **JSON**, **YAML**, **TOML**, **INI**, **SQL**, **GraphQL**, **Terraform (HCL)**, **.env**
+- **Markdown**, **GFM**
+
 ## Installation  
 1. Open VS Code Extensions Marketplace  
 2. Search for **"[Oxygen Lite Theme](https://marketplace.visualstudio.com/items?itemName=Merrcurys.oxygen-lite-theme)"**  

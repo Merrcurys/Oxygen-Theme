@@ -2,6 +2,46 @@
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Oxygen Theme",
 	"type": "dark",
+	// Семантическая подсветка работает во всех языках с Language Server (Python, C#, Rust, TS/JS, Go, Java и др.)
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"namespace": "#DFE2E7",
+		"type": "#86D9CA",
+		"class": "#86D9CA",
+		"enum": "#86D9CA",
+		"interface": "#86D9CA",
+		"struct": "#86D9CA",
+		"typeParameter": "#86D9CA",
+		"function": "#86D9CA",
+		"method": "#86D9CA",
+		"macro": "#86D9CA",
+		"decorator": "#77B7D7",
+		"parameter": "#DFE2E7",
+		"variable": "#DFAB5C",
+		"property": "#DFE2E7",
+		"enumMember": "#FBCC43",
+		"event": "#77B7D7",
+		"keyword": "#977CDC",
+		"modifier": "#977CDC",
+		"operator": "#77B7D7",
+		"string": "#977CDC",
+		"number": "#78a9ff",
+		"regexp": "#DFE2E7",
+		"comment": {
+			"foreground": "#757575",
+			"fontStyle": "italic"
+		},
+		"variable.readonly": "#FBCC43",
+		"variable.static": "#FBCC43",
+		"property.readonly": "#FBCC43",
+		"*.deprecated": {
+			"foreground": "#757575",
+			"fontStyle": "italic strikethrough"
+		},
+		"*.documentation": "#DFE2E7",
+		"*.declaration": "#DFE2E7",
+		"*": "#DFE2E7"
+	},
 	"colors": {
 		// Общие настройки интерфейса
 		"contrastBorder": "#343434",
@@ -685,7 +725,7 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#DFE2E7",
+				"foreground": "#DFE2E7"
 			}
 		},
 		// Разметка
@@ -1820,6 +1860,986 @@
 			],
 			"settings": {
 				"foreground": "#977CDC"
+			}
+		},
+		// ==================== Dockerfile ====================
+		{
+			"name": "[VSCODE-CUSTOM] Dockerfile Instructions",
+			"scope": [
+				"keyword.control.dockerfile",
+				"keyword.other.special-method.dockerfile",
+				"keyword.other.instruction.dockerfile"
+			],
+			"settings": {
+				"foreground": "#977CDC"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Dockerfile Options and Operators",
+			"scope": [
+				"keyword.operator.dockerfile",
+				"keyword.other.option.dockerfile",
+				"punctuation.definition.option.dockerfile"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Dockerfile Stage and Alias Names",
+			"scope": [
+				"entity.name.stage.dockerfile",
+				"entity.other.alias.dockerfile",
+				"entity.name.tag.dockerfile"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Dockerfile Variables",
+			"scope": [
+				"variable.other.dockerfile",
+				"punctuation.definition.variable.dockerfile",
+				"punctuation.section.embedded.dockerfile"
+			],
+			"settings": {
+				"foreground": "#DFAB5C"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Dockerfile Line Continuation",
+			"scope": [
+				"punctuation.separator.continuation.dockerfile"
+			],
+			"settings": {
+				"foreground": "#757575"
+			}
+		},
+		// ==================== Rust ====================
+		{
+			"name": "[VSCODE-CUSTOM] Rust Types",
+			"scope": [
+				"entity.name.type.rust",
+				"entity.name.type.struct.rust",
+				"entity.name.type.enum.rust",
+				"entity.name.type.trait.rust",
+				"entity.name.type.union.rust",
+				"entity.name.type.interface.rust",
+				"support.type.rust",
+				"support.type.primitive.rust"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Rust Functions and Macros",
+			"scope": [
+				"entity.name.function.rust",
+				"entity.name.function.macro.rust",
+				"support.function.rust",
+				"support.macro.rust"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Rust Control Keywords",
+			"scope": [
+				"keyword.control.rust",
+				"keyword.control.async.rust",
+				"keyword.control.await.rust",
+				"keyword.control.flow.rust",
+				"keyword.control.conditional.rust",
+				"keyword.control.loop.rust"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Rust Storage and Modifiers",
+			"scope": [
+				"storage.type.rust",
+				"storage.type.function.rust",
+				"storage.modifier.rust"
+			],
+			"settings": {
+				"foreground": "#977CDC"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Rust Variables and Parameters",
+			"scope": [
+				"variable.other.rust",
+				"variable.other.mutable.rust",
+				"variable.parameter.rust"
+			],
+			"settings": {
+				"foreground": "#DFAB5C"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Rust Fields and Accessors",
+			"scope": [
+				"variable.other.member.rust",
+				"punctuation.accessor.rust"
+			],
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Rust Constants",
+			"scope": [
+				"constant.other.rust",
+				"constant.language.rust",
+				"support.constant.rust"
+			],
+			"settings": {
+				"foreground": "#FBCC43"
+			}
+		},
+		// ==================== C# ====================
+		{
+			"name": "[VSCODE-CUSTOM] CSharp Types",
+			"scope": [
+				"entity.name.type.cs",
+				"entity.name.type.class.cs",
+				"entity.name.type.struct.cs",
+				"entity.name.type.interface.cs",
+				"entity.name.type.enum.cs",
+				"support.type.cs"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] CSharp Functions and Methods",
+			"scope": [
+				"entity.name.function.cs",
+				"entity.name.function.method.cs",
+				"entity.name.function.constructor.cs"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] CSharp Control Keywords",
+			"scope": [
+				"keyword.control.cs",
+				"keyword.control.conditional.cs",
+				"keyword.control.loop.cs",
+				"keyword.control.flow.cs",
+				"keyword.control.trycatch.cs",
+				"keyword.control.exception.cs"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] CSharp Storage Modifiers",
+			"scope": [
+				"storage.modifier.cs"
+			],
+			"settings": {
+				"foreground": "#977CDC"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] CSharp Constants",
+			"scope": [
+				"constant.language.cs",
+				"constant.language.boolean.cs",
+				"constant.other.cs"
+			],
+			"settings": {
+				"foreground": "#FBCC43"
+			}
+		},
+		// ==================== JavaScript / TypeScript ====================
+		{
+			"name": "[VSCODE-CUSTOM] JS/TS Functions",
+			"scope": [
+				"entity.name.function.js",
+				"entity.name.function.jsx",
+				"entity.name.function.ts",
+				"entity.name.function.tsx",
+				"support.function.js",
+				"support.function.ts",
+				"support.function.jsx",
+				"support.function.tsx"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] JS/TS Types and Classes",
+			"scope": [
+				"entity.name.type.ts",
+				"entity.name.type.tsx",
+				"entity.name.type.class.js",
+				"entity.name.type.class.jsx",
+				"entity.name.type.class.ts",
+				"entity.name.type.class.tsx",
+				"support.class.js",
+				"support.class.ts",
+				"support.class.jsx",
+				"support.class.tsx"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] JS/TS JSX TSX Tags",
+			"scope": [
+				"entity.name.tag.jsx",
+				"entity.name.tag.tsx",
+				"support.class.component.jsx",
+				"support.class.component.tsx",
+				"entity.name.tag.html"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] JS/TS Control Keywords",
+			"scope": [
+				"keyword.control.import.js",
+				"keyword.control.import.jsx",
+				"keyword.control.import.ts",
+				"keyword.control.import.tsx",
+				"keyword.control.export.js",
+				"keyword.control.export.ts",
+				"keyword.control.from.js",
+				"keyword.control.from.ts",
+				"keyword.control.flow.js",
+				"keyword.control.flow.jsx",
+				"keyword.control.flow.ts",
+				"keyword.control.flow.tsx"
+			],
+			"settings": {
+				"foreground": "#977CDC"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] JS/TS Object Literal Keys",
+			"scope": [
+				"meta.object-literal.key.js",
+				"meta.object-literal.key.jsx",
+				"meta.object-literal.key.ts",
+				"meta.object-literal.key.tsx"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] JS/TS Language Constants",
+			"scope": [
+				"constant.language.boolean.js",
+				"constant.language.boolean.ts",
+				"constant.language.null.js",
+				"constant.language.null.ts",
+				"constant.language.undefined.js",
+				"constant.language.undefined.ts",
+				"constant.language.nan.js",
+				"constant.language.nan.ts"
+			],
+			"settings": {
+				"foreground": "#FBCC43"
+			}
+		},
+		// ==================== Go ====================
+		{
+			"name": "[VSCODE-CUSTOM] Go Keywords",
+			"scope": [
+				"keyword.control.go",
+				"keyword.other.go",
+				"storage.type.go"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Go Types and Functions",
+			"scope": [
+				"entity.name.type.go",
+				"entity.name.function.go",
+				"support.type.go",
+				"support.function.go"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Go Variables",
+			"scope": [
+				"variable.other.go",
+				"variable.parameter.go"
+			],
+			"settings": {
+				"foreground": "#DFAB5C"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Go Constants",
+			"scope": [
+				"constant.language.go",
+				"constant.other.go"
+			],
+			"settings": {
+				"foreground": "#FBCC43"
+			}
+		},
+		// ==================== Java ====================
+		{
+			"name": "[VSCODE-CUSTOM] Java Control Keywords",
+			"scope": [
+				"keyword.control.java",
+				"keyword.control.conditional.java",
+				"keyword.control.loop.java",
+				"keyword.control.flow.java"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Java Types and Functions",
+			"scope": [
+				"entity.name.type.java",
+				"entity.name.type.class.java",
+				"entity.name.function.java",
+				"entity.name.function.constructor.java"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Java Variables",
+			"scope": [
+				"variable.other.java",
+				"variable.parameter.java"
+			],
+			"settings": {
+				"foreground": "#DFAB5C"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Java Constants",
+			"scope": [
+				"constant.language.java",
+				"constant.other.java"
+			],
+			"settings": {
+				"foreground": "#FBCC43"
+			}
+		},
+		// ==================== C / C++ ====================
+		{
+			"name": "[VSCODE-CUSTOM] C/C++ Control Keywords",
+			"scope": [
+				"keyword.control.c",
+				"keyword.control.cpp",
+				"keyword.control.directive.c",
+				"keyword.control.directive.cpp",
+				"storage.type.c",
+				"storage.type.cpp"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] C/C++ Types and Functions",
+			"scope": [
+				"entity.name.function.c",
+				"entity.name.function.cpp",
+				"entity.name.type.c",
+				"entity.name.type.cpp",
+				"support.type.c",
+				"support.type.cpp"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] C/C++ Variables",
+			"scope": [
+				"variable.other.c",
+				"variable.other.cpp",
+				"variable.parameter.c",
+				"variable.parameter.cpp"
+			],
+			"settings": {
+				"foreground": "#DFAB5C"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] C/C++ Constants",
+			"scope": [
+				"constant.language.c",
+				"constant.language.cpp",
+				"constant.other.c",
+				"constant.other.cpp"
+			],
+			"settings": {
+				"foreground": "#FBCC43"
+			}
+		},
+		// ==================== PHP ====================
+		{
+			"name": "[VSCODE-CUSTOM] PHP Keywords",
+			"scope": [
+				"keyword.control.php",
+				"storage.type.php",
+				"storage.modifier.php"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] PHP Functions",
+			"scope": [
+				"entity.name.function.php",
+				"support.function.php",
+				"support.function.construct.php"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] PHP Variables",
+			"scope": [
+				"variable.other.php",
+				"punctuation.definition.variable.php"
+			],
+			"settings": {
+				"foreground": "#DFAB5C"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] PHP Constants",
+			"scope": [
+				"constant.language.php",
+				"constant.other.php"
+			],
+			"settings": {
+				"foreground": "#FBCC43"
+			}
+		},
+		// ==================== Ruby ====================
+		{
+			"name": "[VSCODE-CUSTOM] Ruby Keywords",
+			"scope": [
+				"keyword.control.ruby",
+				"keyword.control.flow.ruby",
+				"keyword.control.start-block.ruby"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Ruby Functions",
+			"scope": [
+				"entity.name.function.ruby",
+				"support.function.ruby"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Ruby Variables",
+			"scope": [
+				"variable.other.ruby",
+				"variable.other.constant.ruby"
+			],
+			"settings": {
+				"foreground": "#DFAB5C"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Ruby Constants",
+			"scope": [
+				"constant.language.ruby",
+				"constant.other.ruby"
+			],
+			"settings": {
+				"foreground": "#FBCC43"
+			}
+		},
+		// ==================== Kotlin / Swift / Dart ====================
+		{
+			"name": "[VSCODE-CUSTOM] Kotlin/Swift/Dart Keywords",
+			"scope": [
+				"keyword.control.kotlin",
+				"storage.type.kotlin",
+				"storage.modifier.kotlin",
+				"keyword.control.swift",
+				"storage.type.swift",
+				"storage.modifier.swift",
+				"keyword.control.dart",
+				"storage.type.dart",
+				"storage.modifier.dart"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Kotlin/Swift/Dart Types and Functions",
+			"scope": [
+				"entity.name.type.kotlin",
+				"entity.name.function.kotlin",
+				"entity.name.type.swift",
+				"entity.name.function.swift",
+				"entity.name.type.dart",
+				"entity.name.function.dart"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Kotlin/Swift/Dart Variables",
+			"scope": [
+				"variable.other.kotlin",
+				"variable.other.swift",
+				"variable.other.dart",
+				"variable.parameter.kotlin",
+				"variable.parameter.swift",
+				"variable.parameter.dart"
+			],
+			"settings": {
+				"foreground": "#DFAB5C"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Kotlin/Swift/Dart Constants",
+			"scope": [
+				"constant.language.kotlin",
+				"constant.other.kotlin",
+				"constant.language.swift",
+				"constant.other.swift",
+				"constant.language.dart",
+				"constant.other.dart"
+			],
+			"settings": {
+				"foreground": "#FBCC43"
+			}
+		},
+		// ==================== HTML / Vue / Svelte ====================
+		{
+			"name": "[VSCODE-CUSTOM] HTML/Vue/Svelte Tags",
+			"scope": [
+				"entity.name.tag.html",
+				"entity.name.tag.vue",
+				"entity.name.tag.svelte"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] HTML/Vue/Svelte Attributes",
+			"scope": [
+				"entity.other.attribute-name.html",
+				"entity.other.attribute-name.vue",
+				"entity.other.attribute-name.svelte"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Svelte Control Keywords",
+			"scope": [
+				"keyword.control.svelte",
+				"punctuation.section.block.begin.svelte",
+				"punctuation.section.block.end.svelte"
+			],
+			"settings": {
+				"foreground": "#977CDC"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] HTML Punctuation",
+			"scope": [
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html"
+			],
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		// ==================== CSS / SCSS / LESS ====================
+		{
+			"name": "[VSCODE-CUSTOM] CSS Tags and Selectors",
+			"scope": [
+				"entity.name.tag.css",
+				"entity.name.tag.scss",
+				"entity.name.tag.less",
+				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.class.scss",
+				"entity.other.attribute-name.class.less"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] CSS Ids",
+			"scope": [
+				"entity.other.attribute-name.id.css",
+				"entity.other.attribute-name.id.scss",
+				"entity.other.attribute-name.id.less"
+			],
+			"settings": {
+				"foreground": "#DFAB5C"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] CSS Pseudo Selectors",
+			"scope": [
+				"entity.other.attribute-name.pseudo-class.css",
+				"entity.other.attribute-name.pseudo-element.css",
+				"entity.other.attribute-name.pseudo-class.scss",
+				"entity.other.attribute-name.pseudo-element.scss"
+			],
+			"settings": {
+				"foreground": "#977CDC"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] CSS Properties",
+			"scope": [
+				"support.type.property-name.css",
+				"support.type.property-name.scss",
+				"support.type.property-name.less"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		// ==================== YAML ====================
+		{
+			"name": "[VSCODE-CUSTOM] YAML Keys",
+			"scope": [
+				"entity.name.tag.yaml",
+				"support.type.property-name.yaml"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] YAML Punctuation",
+			"scope": [
+				"punctuation.separator.key-value.yaml",
+				"punctuation.definition.block.sequence.item.yaml",
+				"punctuation.definition.directive.yaml"
+			],
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] YAML Constants",
+			"scope": [
+				"constant.language.yaml",
+				"constant.language.boolean.yaml",
+				"constant.language.null.yaml"
+			],
+			"settings": {
+				"foreground": "#FBCC43"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] YAML Plain Strings",
+			"scope": [
+				"string.unquoted.plain.out.yaml",
+				"string.unquoted.plain.in.yaml"
+			],
+			"settings": {
+				"foreground": "#DFE2E7"
+			}
+		},
+		// ==================== TOML / INI ====================
+		{
+			"name": "[VSCODE-CUSTOM] TOML/INI Sections",
+			"scope": [
+				"entity.name.tag.toml",
+				"entity.name.section.toml",
+				"entity.name.section.ini"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] TOML/INI Keys",
+			"scope": [
+				"support.type.property-name.toml",
+				"keyword.other.definition.ini"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] TOML/INI Constants",
+			"scope": [
+				"constant.language.toml",
+				"constant.other.toml"
+			],
+			"settings": {
+				"foreground": "#FBCC43"
+			}
+		},
+		// ==================== SQL ====================
+		{
+			"name": "[VSCODE-CUSTOM] SQL Keywords",
+			"scope": [
+				"keyword.other.sql",
+				"keyword.other.DML.sql",
+				"keyword.other.DDL.sql",
+				"keyword.other.DCL.sql",
+				"keyword.other.TCL.sql"
+			],
+			"settings": {
+				"foreground": "#977CDC"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] SQL Functions",
+			"scope": [
+				"support.function.sql",
+				"entity.name.function.sql"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] SQL Constants",
+			"scope": [
+				"constant.language.sql",
+				"constant.other.sql"
+			],
+			"settings": {
+				"foreground": "#FBCC43"
+			}
+		},
+		// ==================== Shell / PowerShell ====================
+		{
+			"name": "[VSCODE-CUSTOM] Shell/PowerShell Keywords",
+			"scope": [
+				"keyword.control.shell",
+				"keyword.control.powershell",
+				"keyword.other.powershell"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Shell/PowerShell Functions",
+			"scope": [
+				"support.function.builtin.shell",
+				"entity.name.function.powershell",
+				"support.function.powershell"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Shell/PowerShell Variables",
+			"scope": [
+				"variable.other.normal.shell",
+				"variable.other.special.shell",
+				"variable.other.normal.powershell",
+				"variable.other.readwrite.powershell"
+			],
+			"settings": {
+				"foreground": "#DFAB5C"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] PowerShell Constants",
+			"scope": [
+				"constant.language.powershell"
+			],
+			"settings": {
+				"foreground": "#FBCC43"
+			}
+		},
+		// ==================== Lua ====================
+		{
+			"name": "[VSCODE-CUSTOM] Lua Keywords",
+			"scope": [
+				"keyword.control.lua"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Lua Functions",
+			"scope": [
+				"support.function.lua",
+				"entity.name.function.lua"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Lua Variables",
+			"scope": [
+				"variable.other.lua",
+				"variable.parameter.lua"
+			],
+			"settings": {
+				"foreground": "#DFAB5C"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Lua Constants",
+			"scope": [
+				"constant.language.lua",
+				"constant.other.lua"
+			],
+			"settings": {
+				"foreground": "#FBCC43"
+			}
+		},
+		// ==================== Makefile ====================
+		{
+			"name": "[VSCODE-CUSTOM] Makefile Keywords",
+			"scope": [
+				"keyword.control.makefile"
+			],
+			"settings": {
+				"foreground": "#977CDC"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Makefile Targets",
+			"scope": [
+				"entity.name.function.makefile",
+				"entity.name.function.target.makefile"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Makefile Variables",
+			"scope": [
+				"variable.other.makefile"
+			],
+			"settings": {
+				"foreground": "#DFAB5C"
+			}
+		},
+		// ==================== Terraform (HCL) ====================
+		{
+			"name": "[VSCODE-CUSTOM] Terraform Keywords",
+			"scope": [
+				"keyword.control.terraform",
+				"keyword.other.terraform"
+			],
+			"settings": {
+				"foreground": "#977CDC"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Terraform Types",
+			"scope": [
+				"entity.name.type.terraform",
+				"support.type.terraform"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Terraform Variables",
+			"scope": [
+				"variable.other.terraform"
+			],
+			"settings": {
+				"foreground": "#DFAB5C"
+			}
+		},
+		// ==================== GraphQL ====================
+		{
+			"name": "[VSCODE-CUSTOM] GraphQL Keywords",
+			"scope": [
+				"keyword.control.graphql",
+				"keyword.other.graphql"
+			],
+			"settings": {
+				"foreground": "#977CDC"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] GraphQL Types",
+			"scope": [
+				"entity.name.type.graphql",
+				"support.type.graphql"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] GraphQL Variables",
+			"scope": [
+				"variable.other.graphql"
+			],
+			"settings": {
+				"foreground": "#DFAB5C"
+			}
+		},
+		// ==================== .env / dotenv ====================
+		{
+			"name": "[VSCODE-CUSTOM] Dotenv Keywords",
+			"scope": [
+				"keyword.other.env",
+				"keyword.control.env"
+			],
+			"settings": {
+				"foreground": "#977CDC"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Dotenv Variables",
+			"scope": [
+				"variable.other.env",
+				"entity.name.tag.env"
+			],
+			"settings": {
+				"foreground": "#86D9CA"
 			}
 		}
 	]
