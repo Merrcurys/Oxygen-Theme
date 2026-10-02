@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.1.3] - 2026-10-02
+
+- Reduced the syntax palette to three colors only: violet (`#977CDC`), blue (`#77B7D7`) and white (`#DFE2E7`), plus gray for comments. Removed teal and pink from code highlighting.
+- Variables, identifiers, properties and object keys are now white, so ordinary code stays quiet and only meaningful tokens are highlighted.
+- CSS/SCSS/LESS: properties and values are white, classes/ids are violet, element tags and pseudo selectors (including `:root`) are blue.
+- Bracket pair colorization cycles through violet/blue/white instead of VS Code's default yellow/orchid palette.
+- Markdown fenced code blocks, inline code spans and their backtick delimiters are now colored instead of white.
+
 ## [1.1.2] - 2026-10-02
 
 - Variables and identifiers are now white (`#DFE2E7`) instead of violet, so ordinary code stays quiet and only meaningful tokens are highlighted.

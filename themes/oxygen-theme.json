@@ -6,34 +6,34 @@
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"namespace": "#DFE2E7",
-		"type": "#86D9CA",
-		"class": "#86D9CA",
-		"enum": "#86D9CA",
-		"interface": "#86D9CA",
-		"struct": "#86D9CA",
-		"typeParameter": "#86D9CA",
-		"function": "#86D9CA",
-		"method": "#86D9CA",
-		"macro": "#86D9CA",
+		"type": "#77B7D7",
+		"class": "#77B7D7",
+		"enum": "#77B7D7",
+		"interface": "#77B7D7",
+		"struct": "#77B7D7",
+		"typeParameter": "#77B7D7",
+		"function": "#77B7D7",
+		"method": "#77B7D7",
+		"macro": "#77B7D7",
 		"decorator": "#77B7D7",
 		"parameter": "#DFE2E7",
 		"variable": "#DFE2E7",
 		"property": "#DFE2E7",
-		"enumMember": "#F286C4",
+		"enumMember": "#977CDC",
 		"event": "#77B7D7",
 		"keyword": "#977CDC",
 		"modifier": "#977CDC",
 		"operator": "#77B7D7",
 		"string": "#977CDC",
-		"number": "#78a9ff",
+		"number": "#77B7D7",
 		"regexp": "#DFE2E7",
 		"comment": {
 			"foreground": "#757575",
 			"fontStyle": "italic"
 		},
-		"variable.readonly": "#F286C4",
-		"variable.static": "#F286C4",
-		"property.readonly": "#F286C4",
+		"variable.readonly": "#977CDC",
+		"variable.static": "#977CDC",
+		"property.readonly": "#977CDC",
 		"*.deprecated": {
 			"foreground": "#757575",
 			"fontStyle": "italic strikethrough"
@@ -76,12 +76,12 @@
 		"editorBracketMatch.background": "#343434",
 		"editorBracketMatch.border": "#343434",
 		// Цвета парной раскраски скобок в палитре темы
-		"editorBracketHighlight.foreground1": "#F286C4",
-		"editorBracketHighlight.foreground2": "#DFE2E7",
-		"editorBracketHighlight.foreground3": "#77B7D7",
-		"editorBracketHighlight.foreground4": "#86D9CA",
-		"editorBracketHighlight.foreground5": "#78A9FF",
-		"editorBracketHighlight.foreground6": "#977CDC",
+		"editorBracketHighlight.foreground1": "#977CDC",
+		"editorBracketHighlight.foreground2": "#77B7D7",
+		"editorBracketHighlight.foreground3": "#DFE2E7",
+		"editorBracketHighlight.foreground4": "#977CDC",
+		"editorBracketHighlight.foreground5": "#77B7D7",
+		"editorBracketHighlight.foreground6": "#DFE2E7",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#E1270E",
 		"editorCodeLens.foreground": "#343434",
 		"editorCursor.background": "#151515",
@@ -187,7 +187,7 @@
 		"statusBar.noFolderForeground": "#fff",
 		"statusBar.border": "#171717",
 		"statusBarItem.prominentBackground": "#E1270E",
-		"statusBarItem.prominentHoverBackground": "#F286C4",
+		"statusBarItem.prominentHoverBackground": "#977CDC",
 		"statusBarItem.remoteForeground": "#e6e6e6",
 		"statusBarItem.remoteBackground": "#171717",
 		// Вкладки
@@ -259,7 +259,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -268,7 +268,7 @@
 				"entity.name.function"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -278,7 +278,7 @@
 				"entity.name.type.class"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -296,7 +296,7 @@
 				"entity.name.tag"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -360,7 +360,7 @@
 				"keyword.other.unit"
 			],
 			"settings": {
-				"foreground": "#78a9ff"
+				"foreground": "#77B7D7"
 			}
 		},
 		// Хранение и типы
@@ -400,7 +400,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#F286C4"
+				"foreground": "#977CDC"
 			}
 		},
 		{
@@ -427,7 +427,7 @@
 				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#78a9ff"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -594,7 +594,7 @@
 				"support.class"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -603,7 +603,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -612,7 +612,7 @@
 				"support.function"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -1546,7 +1546,7 @@
 				"variable.other.constant.property.tsx"
 			],
 			"settings": {
-				"foreground": "#F286C4"
+				"foreground": "#977CDC"
 			}
 		},
 		{
@@ -1818,6 +1818,24 @@
 			}
 		},
 		{
+			"name": "[VSCODE-CUSTOM] Markdown Inline Code",
+			"scope": [
+				"markup.inline.raw.string.markdown"
+			],
+			"settings": {
+				"foreground": "#977CDC"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Markdown Inline Code Delimiters",
+			"scope": [
+				"punctuation.definition.raw.markdown"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		{
 			"name": "[VSCODE-CUSTOM] Markdown List Punctuation Definition",
 			"scope": "beginning.punctuation.definition.list.markdown",
 			"settings": {
@@ -1870,6 +1888,36 @@
 				"foreground": "#977CDC"
 			}
 		},
+		{
+			"name": "[VSCODE-CUSTOM] Markdown Fenced Code Block",
+			"scope": [
+				"markup.fenced_code.block.markdown",
+				"markup.raw.block.fenced.markdown"
+			],
+			"settings": {
+				"foreground": "#977CDC"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Markdown Code Fence Delimiters",
+			"scope": [
+				"punctuation.definition.markdown",
+				"punctuation.definition.fenced.markdown"
+			],
+			"settings": {
+				"foreground": "#77B7D7"
+			}
+		},
+		{
+			"name": "[VSCODE-CUSTOM] Markdown Code Fence Language",
+			"scope": [
+				"fenced_code.block.language",
+				"fenced_code.block.language.markdown"
+			],
+			"settings": {
+				"foreground": "#977CDC"
+			}
+		},
 		// ==================== Dockerfile ====================
 		{
 			"name": "[VSCODE-CUSTOM] Dockerfile Instructions",
@@ -1901,7 +1949,7 @@
 				"entity.name.tag.dockerfile"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -1938,7 +1986,7 @@
 				"support.type.primitive.rust"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -1950,7 +1998,7 @@
 				"support.macro.rust"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2007,7 +2055,7 @@
 				"support.constant.rust"
 			],
 			"settings": {
-				"foreground": "#F286C4"
+				"foreground": "#977CDC"
 			}
 		},
 		// ==================== C# ====================
@@ -2022,7 +2070,7 @@
 				"support.type.cs"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2033,7 +2081,7 @@
 				"entity.name.function.constructor.cs"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2067,7 +2115,7 @@
 				"constant.other.cs"
 			],
 			"settings": {
-				"foreground": "#F286C4"
+				"foreground": "#977CDC"
 			}
 		},
 		// ==================== JavaScript / TypeScript ====================
@@ -2084,7 +2132,7 @@
 				"support.function.tsx"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2102,7 +2150,7 @@
 				"support.class.tsx"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2115,7 +2163,7 @@
 				"entity.name.tag.html"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2163,7 +2211,7 @@
 				"constant.language.nan.ts"
 			],
 			"settings": {
-				"foreground": "#F286C4"
+				"foreground": "#977CDC"
 			}
 		},
 		// ==================== Go ====================
@@ -2187,7 +2235,7 @@
 				"support.function.go"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2207,7 +2255,7 @@
 				"constant.other.go"
 			],
 			"settings": {
-				"foreground": "#F286C4"
+				"foreground": "#977CDC"
 			}
 		},
 		// ==================== Java ====================
@@ -2232,7 +2280,7 @@
 				"entity.name.function.constructor.java"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2252,7 +2300,7 @@
 				"constant.other.java"
 			],
 			"settings": {
-				"foreground": "#F286C4"
+				"foreground": "#977CDC"
 			}
 		},
 		// ==================== C / C++ ====================
@@ -2281,7 +2329,7 @@
 				"support.type.cpp"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2305,7 +2353,7 @@
 				"constant.other.cpp"
 			],
 			"settings": {
-				"foreground": "#F286C4"
+				"foreground": "#977CDC"
 			}
 		},
 		// ==================== PHP ====================
@@ -2328,7 +2376,7 @@
 				"support.function.construct.php"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2348,7 +2396,7 @@
 				"constant.other.php"
 			],
 			"settings": {
-				"foreground": "#F286C4"
+				"foreground": "#977CDC"
 			}
 		},
 		// ==================== Ruby ====================
@@ -2370,7 +2418,7 @@
 				"support.function.ruby"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2390,7 +2438,7 @@
 				"constant.other.ruby"
 			],
 			"settings": {
-				"foreground": "#F286C4"
+				"foreground": "#977CDC"
 			}
 		},
 		// ==================== Kotlin / Swift / Dart ====================
@@ -2422,7 +2470,7 @@
 				"entity.name.function.dart"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2450,7 +2498,7 @@
 				"constant.other.dart"
 			],
 			"settings": {
-				"foreground": "#F286C4"
+				"foreground": "#977CDC"
 			}
 		},
 		// ==================== HTML / Vue / Svelte ====================
@@ -2462,7 +2510,7 @@
 				"entity.name.tag.svelte"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2507,7 +2555,7 @@
 				"entity.name.tag.less"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2533,7 +2581,7 @@
 				"entity.other.attribute-name.pseudo-element.scss"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2555,7 +2603,7 @@
 				"support.type.property-name.yaml"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2577,7 +2625,7 @@
 				"constant.language.null.yaml"
 			],
 			"settings": {
-				"foreground": "#F286C4"
+				"foreground": "#977CDC"
 			}
 		},
 		{
@@ -2599,7 +2647,7 @@
 				"entity.name.section.ini"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2619,7 +2667,7 @@
 				"constant.other.toml"
 			],
 			"settings": {
-				"foreground": "#F286C4"
+				"foreground": "#977CDC"
 			}
 		},
 		// ==================== SQL ====================
@@ -2643,7 +2691,7 @@
 				"entity.name.function.sql"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2653,7 +2701,7 @@
 				"constant.other.sql"
 			],
 			"settings": {
-				"foreground": "#F286C4"
+				"foreground": "#977CDC"
 			}
 		},
 		// ==================== Shell / PowerShell ====================
@@ -2676,7 +2724,7 @@
 				"support.function.powershell"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2697,7 +2745,7 @@
 				"constant.language.powershell"
 			],
 			"settings": {
-				"foreground": "#F286C4"
+				"foreground": "#977CDC"
 			}
 		},
 		// ==================== Lua ====================
@@ -2717,7 +2765,7 @@
 				"entity.name.function.lua"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2737,7 +2785,7 @@
 				"constant.other.lua"
 			],
 			"settings": {
-				"foreground": "#F286C4"
+				"foreground": "#977CDC"
 			}
 		},
 		// ==================== Makefile ====================
@@ -2757,7 +2805,7 @@
 				"entity.name.function.target.makefile"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2787,7 +2835,7 @@
 				"support.type.terraform"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2817,7 +2865,7 @@
 				"support.type.graphql"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		},
 		{
@@ -2847,7 +2895,7 @@
 				"entity.name.tag.env"
 			],
 			"settings": {
-				"foreground": "#86D9CA"
+				"foreground": "#77B7D7"
 			}
 		}
 	]
