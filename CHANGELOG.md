@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.1.1] - 2026-10-02
+
+- Replaced the yellow constants (`#FBCC43`) with pink (`#F286C4`) so syntax stays within the pink/violet/blue palette.
+- Replaced the orange variables (`#DFAB5C`) with soft violet (`#C792EA`).
+- Classes (`support.class`) now use the teal type color for consistency with semantic `class`.
+- Editor warnings (`editorWarning`, `list.warningForeground`, `inputValidation.warningBorder`) and terminal ANSI yellow stay yellow.
+
 ## [1.1.0] - 2026-10-02
 
 - Added semantic highlighting (`semanticTokenColors`) for consistent coloring across all languages with a language server (Python, C#, Rust, TS/JS, Go, Java, ...).

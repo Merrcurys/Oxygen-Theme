@@ -17,9 +17,9 @@
 		"macro": "#86D9CA",
 		"decorator": "#77B7D7",
 		"parameter": "#DFE2E7",
-		"variable": "#DFAB5C",
+		"variable": "#C792EA",
 		"property": "#DFE2E7",
-		"enumMember": "#FBCC43",
+		"enumMember": "#F286C4",
 		"event": "#77B7D7",
 		"keyword": "#977CDC",
 		"modifier": "#977CDC",
@@ -31,9 +31,9 @@
 			"foreground": "#757575",
 			"fontStyle": "italic"
 		},
-		"variable.readonly": "#FBCC43",
-		"variable.static": "#FBCC43",
-		"property.readonly": "#FBCC43",
+		"variable.readonly": "#F286C4",
+		"variable.static": "#F286C4",
+		"property.readonly": "#F286C4",
 		"*.deprecated": {
 			"foreground": "#757575",
 			"fontStyle": "italic strikethrough"
@@ -179,7 +179,7 @@
 		"statusBar.noFolderForeground": "#fff",
 		"statusBar.border": "#171717",
 		"statusBarItem.prominentBackground": "#E1270E",
-		"statusBarItem.prominentHoverBackground": "#FBCC43",
+		"statusBarItem.prominentHoverBackground": "#F286C4",
 		"statusBarItem.remoteForeground": "#e6e6e6",
 		"statusBarItem.remoteBackground": "#171717",
 		// Вкладки
@@ -392,7 +392,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#FBCC43"
+				"foreground": "#F286C4"
 			}
 		},
 		{
@@ -428,7 +428,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#DFAB5C"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -447,7 +447,7 @@
 				"variable"
 			],
 			"settings": {
-				"foreground": "#DFAB5C"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -586,7 +586,7 @@
 				"support.class"
 			],
 			"settings": {
-				"foreground": "#DFAB5C"
+				"foreground": "#86D9CA"
 			}
 		},
 		{
@@ -1538,7 +1538,7 @@
 				"variable.other.constant.property.tsx"
 			],
 			"settings": {
-				"foreground": "#DFC45C"
+				"foreground": "#F286C4"
 			}
 		},
 		{
@@ -1904,7 +1904,7 @@
 				"punctuation.section.embedded.dockerfile"
 			],
 			"settings": {
-				"foreground": "#DFAB5C"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -1978,7 +1978,7 @@
 				"variable.parameter.rust"
 			],
 			"settings": {
-				"foreground": "#DFAB5C"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -1999,7 +1999,7 @@
 				"support.constant.rust"
 			],
 			"settings": {
-				"foreground": "#FBCC43"
+				"foreground": "#F286C4"
 			}
 		},
 		// ==================== C# ====================
@@ -2059,7 +2059,7 @@
 				"constant.other.cs"
 			],
 			"settings": {
-				"foreground": "#FBCC43"
+				"foreground": "#F286C4"
 			}
 		},
 		// ==================== JavaScript / TypeScript ====================
@@ -2155,7 +2155,7 @@
 				"constant.language.nan.ts"
 			],
 			"settings": {
-				"foreground": "#FBCC43"
+				"foreground": "#F286C4"
 			}
 		},
 		// ==================== Go ====================
@@ -2189,7 +2189,7 @@
 				"variable.parameter.go"
 			],
 			"settings": {
-				"foreground": "#DFAB5C"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -2199,7 +2199,7 @@
 				"constant.other.go"
 			],
 			"settings": {
-				"foreground": "#FBCC43"
+				"foreground": "#F286C4"
 			}
 		},
 		// ==================== Java ====================
@@ -2234,7 +2234,7 @@
 				"variable.parameter.java"
 			],
 			"settings": {
-				"foreground": "#DFAB5C"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -2244,7 +2244,7 @@
 				"constant.other.java"
 			],
 			"settings": {
-				"foreground": "#FBCC43"
+				"foreground": "#F286C4"
 			}
 		},
 		// ==================== C / C++ ====================
@@ -2285,7 +2285,7 @@
 				"variable.parameter.cpp"
 			],
 			"settings": {
-				"foreground": "#DFAB5C"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -2297,7 +2297,7 @@
 				"constant.other.cpp"
 			],
 			"settings": {
-				"foreground": "#FBCC43"
+				"foreground": "#F286C4"
 			}
 		},
 		// ==================== PHP ====================
@@ -2330,7 +2330,7 @@
 				"punctuation.definition.variable.php"
 			],
 			"settings": {
-				"foreground": "#DFAB5C"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -2340,7 +2340,7 @@
 				"constant.other.php"
 			],
 			"settings": {
-				"foreground": "#FBCC43"
+				"foreground": "#F286C4"
 			}
 		},
 		// ==================== Ruby ====================
@@ -2372,7 +2372,7 @@
 				"variable.other.constant.ruby"
 			],
 			"settings": {
-				"foreground": "#DFAB5C"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -2382,7 +2382,7 @@
 				"constant.other.ruby"
 			],
 			"settings": {
-				"foreground": "#FBCC43"
+				"foreground": "#F286C4"
 			}
 		},
 		// ==================== Kotlin / Swift / Dart ====================
@@ -2428,7 +2428,7 @@
 				"variable.parameter.dart"
 			],
 			"settings": {
-				"foreground": "#DFAB5C"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -2442,7 +2442,7 @@
 				"constant.other.dart"
 			],
 			"settings": {
-				"foreground": "#FBCC43"
+				"foreground": "#F286C4"
 			}
 		},
 		// ==================== HTML / Vue / Svelte ====================
@@ -2513,7 +2513,7 @@
 				"entity.other.attribute-name.id.less"
 			],
 			"settings": {
-				"foreground": "#DFAB5C"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -2569,7 +2569,7 @@
 				"constant.language.null.yaml"
 			],
 			"settings": {
-				"foreground": "#FBCC43"
+				"foreground": "#F286C4"
 			}
 		},
 		{
@@ -2611,7 +2611,7 @@
 				"constant.other.toml"
 			],
 			"settings": {
-				"foreground": "#FBCC43"
+				"foreground": "#F286C4"
 			}
 		},
 		// ==================== SQL ====================
@@ -2645,7 +2645,7 @@
 				"constant.other.sql"
 			],
 			"settings": {
-				"foreground": "#FBCC43"
+				"foreground": "#F286C4"
 			}
 		},
 		// ==================== Shell / PowerShell ====================
@@ -2680,7 +2680,7 @@
 				"variable.other.readwrite.powershell"
 			],
 			"settings": {
-				"foreground": "#DFAB5C"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -2689,7 +2689,7 @@
 				"constant.language.powershell"
 			],
 			"settings": {
-				"foreground": "#FBCC43"
+				"foreground": "#F286C4"
 			}
 		},
 		// ==================== Lua ====================
@@ -2719,7 +2719,7 @@
 				"variable.parameter.lua"
 			],
 			"settings": {
-				"foreground": "#DFAB5C"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -2729,7 +2729,7 @@
 				"constant.other.lua"
 			],
 			"settings": {
-				"foreground": "#FBCC43"
+				"foreground": "#F286C4"
 			}
 		},
 		// ==================== Makefile ====================
@@ -2758,7 +2758,7 @@
 				"variable.other.makefile"
 			],
 			"settings": {
-				"foreground": "#DFAB5C"
+				"foreground": "#C792EA"
 			}
 		},
 		// ==================== Terraform (HCL) ====================
@@ -2788,7 +2788,7 @@
 				"variable.other.terraform"
 			],
 			"settings": {
-				"foreground": "#DFAB5C"
+				"foreground": "#C792EA"
 			}
 		},
 		// ==================== GraphQL ====================
@@ -2818,7 +2818,7 @@
 				"variable.other.graphql"
 			],
 			"settings": {
-				"foreground": "#DFAB5C"
+				"foreground": "#C792EA"
 			}
 		},
 		// ==================== .env / dotenv ====================
